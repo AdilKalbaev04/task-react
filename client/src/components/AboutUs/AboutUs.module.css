@@ -1,0 +1,622 @@
+.aboutMainTitles {
+  margin: 40px 0 100px;
+  padding: 0 30px;
+}
+
+.aboutMainTitle {
+  color: #4d4d4d;
+  font-family: Montserrat Alternates;
+  font-size: 1.875rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+
+.textOrange {
+  color: #bd7048;
+}
+
+.noWrap {
+  white-space: nowrap;
+}
+
+.aboutMainSubtitle {
+  color: #060606;
+  font-family: Montserrat Alternates;
+  font-size: 3.125rem;
+  font-weight: 500;
+  text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.aboutMainImg {
+  width: 100%;
+}
+
+.aboutDesc {
+  display: flex;
+  margin-top: 40px;
+}
+
+.descTextWrap {
+  width: 60%;
+  margin-left: 5vw;
+}
+
+.descTitle {
+  color: black;
+  font-family: Montserrat Alternates;
+  font-size: 2.6875rem;
+  font-weight: 400;
+  max-width: 640px;
+}
+
+.descText {
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-weight: 400;
+  max-width: 660px;
+}
+
+.descImgWrap {
+  margin-left: auto;
+  padding-left: 30px;
+  width: 40%;
+}
+
+.descImg {
+  width: 100%;
+  height: 100%;
+}
+
+.aboutSlider {
+  margin-top: 80px;
+}
+
+.sliderTitleWrap {
+  max-width: 1220px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.sliderLineWrap {
+  width: 46%;
+  display: flex;
+  align-items: center;
+}
+
+.sliderLine {
+  width: 100%;
+  height: 2px;
+  background: black;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 38px;
+}
+
+.sliderTitle {
+  color: black;
+  font-family: Montserrat Alternates;
+  font-size: 2.6875rem;
+  font-weight: 400;
+  max-width: max-content;
+  margin: 0 0 0 auto;
+}
+
+.aboutDescSec {
+  margin-top: 80px;
+  padding: 0 80px;
+  display: flex;
+}
+
+.descSecImg {
+  width: 33%;
+}
+
+.descSecTextWrap {
+  margin-left: auto;
+  padding-left: 40px;
+}
+
+.descSecTitle {
+  color: black;
+  font-family: Montserrat Alternates;
+  font-size: 2.6875rem;
+  margin: 30px 0 0;
+}
+
+.descSecSubtitle {
+  color: #7e7e7e;
+  font-family: Montserrat Alternates;
+  font-size: 1.25rem;
+  max-width: 520px;
+  margin: 20px 0 0;
+}
+
+.descSecText {
+  color: black;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  max-width: 660px;
+  margin: 30px 0 0;
+}
+
+.descSecList {
+  margin-left: 35px;
+}
+
+.descSecListItem {
+  color: black;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+}
+
+.aboutShow {
+  margin-top: 80px;
+}
+
+.showTitleWrap {
+  max-width: 1220px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.showLineWrap {
+  width: 68%;
+  display: flex;
+  align-items: center;
+}
+
+.showLine {
+  width: 100%;
+  height: 2px;
+  background: black;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 38px;
+}
+
+.showTitle {
+  color: black;
+  font-family: Montserrat Alternates;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.show {
+  background: url(./images/aboutImages/aboutImg-5.png) no-repeat center;
+  height: 100vh;
+  margin-top: 40px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.showWrap {
+  margin: 14vh auto 0;
+  padding: 0 30px;
+}
+
+.showText {
+  color: white;
+  font-family: Montserrat Alternates;
+  font-size: 1.875rem;
+  margin: 30px 0 0;
+  text-align: center;
+}
+
+.showLink {
+  display: contents;
+  width: 10px;
+}
+
+.showBtn {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+.showBtn:hover {
+  box-shadow: 0 0 15px #bd7048;
+}
+
+/* Media */
+
+@media (max-width: 1220px) {
+  .descTextWrap {
+    margin-left: 40px;
+  }
+  .descTitle {
+    font-size: 2.1875rem;
+  }
+
+  .sliderTitle {
+    font-size: 2.5rem;
+  }
+
+  .aboutDescSec {
+    margin-top: 60px;
+    padding: 0 60px;
+  }
+
+  .descSecText {
+    font-size: 1.125rem;
+  }
+
+  .descSecListItem {
+    font-size: 1.125rem;
+  }
+
+  .showTitle {
+    font-size: 2.375rem;
+  }
+}
+
+@media (max-width: 1120px) {
+  .sliderTitleWrap {
+    display: none;
+  }
+  .descText {
+    font-size: 1.125rem;
+  }
+
+  .sliderTitle {
+    font-size: 2.25rem;
+  }
+
+  .descSecTitle {
+    font-size: 2.5rem;
+  }
+
+  .descSecSubtitle {
+    font-size: 1.125rem;
+  }
+
+  .descSecText {
+    font-size: 1.0625rem;
+  }
+
+  .descSecListItem {
+    font-size: 1.0625rem;
+  }
+
+  .showTitle {
+    font-size: 2.1875rem;
+  }
+}
+
+@media (max-width: 1020px) {
+  .descTitle {
+    font-size: 1.875rem;
+  }
+
+  .descText {
+    font-size: 1.125rem;
+  }
+
+  .sliderTitle {
+    font-size: 2.125rem;
+  }
+
+  .aboutDescSec {
+    padding: 0 40px;
+  }
+
+  .descSecImg {
+    width: 40%;
+  }
+
+  .showTitle {
+    font-size: 2.1875rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .descTextWrap {
+    margin-left: 20px;
+  }
+
+  .descTitle {
+    font-size: 1.5625rem;
+  }
+
+  .sliderTitle {
+    font-size: 1.9375rem;
+  }
+
+  .aboutDescSec {
+    padding: 0 30px;
+  }
+
+  .descSecTitle {
+    font-size: 2.25rem;
+  }
+
+  .descSecSubtitle {
+    font-size: 1.375rem;
+  }
+
+  .descSecText {
+    font-size: 1rem;
+  }
+
+  .descSecListItem {
+    font-size: 1rem;
+  }
+
+  .showTitle {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .sliderTitle {
+    font-size: 1.8125rem;
+  }
+
+  .descSecImg {
+    width: 35%;
+    max-height: 380px;
+  }
+
+  .descSecTitle {
+    font-size: 2rem;
+  }
+
+  .descSecSubtitle {
+    font-size: 1.25rem;
+  }
+
+  .descSecListItem {
+    font-size: 0.9375rem;
+  }
+
+  .showTitle {
+    font-size: 1.875rem;
+  }
+}
+
+@media (max-width: 870px) {
+  .sliderTitle {
+    font-size: 1.6875rem;
+  }
+
+  .descSecSubtitle {
+    font-size: 1rem;
+  }
+
+  .descSecText {
+    font-size: 0.875rem;
+  }
+
+  .descSecListItem {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .aboutMainTitles {
+    padding: 0 30px;
+    margin-bottom: 60px;
+  }
+
+  .aboutMainTitle {
+    font-size: 2.1875rem;
+    text-align: left;
+  }
+
+  .aboutMainSubtitle {
+    font-size: 2.1875rem;
+    text-align: left;
+  }
+
+  .aboutDesc {
+    display: block;
+  }
+
+  .descTextWrap {
+    width: 90%;
+  }
+
+  .descImgWrap {
+    padding: 0;
+    width: 100%;
+  }
+
+  .descTitle {
+    font-size: 2.5rem;
+  }
+
+  .descText {
+    font-size: 1.25rem;
+  }
+
+  .aboutSlider {
+    margin-top: 50px;
+  }
+
+  .sliderLineWrap {
+    display: none;
+  }
+
+  .sliderTitle {
+    font-size: 2.25rem;
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .aboutDescSec {
+    padding: 0 20px;
+  }
+
+  .descSecImg {
+    min-width: 270px;
+  }
+
+  .descSecTitle {
+    margin-top: 5px;
+  }
+
+  .showLineWrap {
+    display: none;
+  }
+
+  .showTitle {
+    font-size: 2.125rem;
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  .descSecTitle {
+    font-size: 1.5625rem;
+    text-align: center;
+  }
+
+  .descSecSubtitle {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 20px auto 0;
+  }
+
+  .descSecText {
+    font-size: 1.25rem;
+  }
+
+  .descSecListItem {
+    font-size: 1.25rem;
+  }
+
+  .aboutDescSec {
+    justify-content: center;
+  }
+
+  .descSecImgMob {
+    width: 65%;
+    display: block;
+    margin: 40px auto 0;
+  }
+
+  .descSecTextWrap {
+    padding: 0;
+  }
+
+  .showTitle {
+    font-size: 2.0625rem;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .aboutMainTitles {
+    padding: 0 10px 0 25px;
+    margin-bottom: 40px;
+  }
+
+  .aboutMainTitle {
+    font-size: 1.5625rem;
+  }
+
+  .aboutMainSubtitle {
+    font-size: 1.5625rem;
+  }
+
+  .descTitle {
+    font-size: 1.875rem;
+  }
+
+  .descText {
+    font-size: 1.125rem;
+  }
+
+  .sliderTitle {
+    font-size: 1.875rem;
+  }
+
+  .descSecImgMob {
+    width: 80%;
+  }
+
+  .showTitleWrap {
+    padding: 0 20px;
+  }
+
+  .showTitle {
+    font-size: 1.875rem;
+  }
+
+  .showBtn {
+    width: 130px;
+    margin-top: 20px;
+  }
+
+  .showText {
+    font-size: 1.5625rem;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .aboutMainTitles {
+    padding: 0 8px 0 20px;
+    margin-top: 30px;
+  }
+
+  .aboutMainTitle {
+    font-size: 1.25rem;
+  }
+
+  .aboutMainSubtitle {
+    font-size: 1.25rem;
+  }
+
+  .descTitle {
+    font-size: 24px;
+  }
+
+  .descText {
+    font-size: 0.9375rem;
+  }
+
+  .aboutSlider {
+    margin-top: 30px;
+  }
+
+  .sliderTitleWrap {
+    padding: 0 20px;
+  }
+
+  .sliderTitle {
+    font-size: 1.5625rem;
+  }
+
+  .descSecTitle {
+    font-size: 1.5625rem;
+    text-align: left;
+  }
+
+  .descSecSubtitle {
+    font-size: 1.25rem;
+    text-align: left;
+    margin: 20px 0 0;
+  }
+
+  .descSecImgMob {
+    width: 100%;
+  }
+
+  .showTitle {
+    font-size: 1.625rem;
+  }
+
+  .showText {
+    font-size: 1.25rem;
+  }
+
+  .showBtn {
+    width: 110px;
+  }
+}

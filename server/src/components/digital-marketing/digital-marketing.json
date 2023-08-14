@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_digital_marketing_digital_marketings",
+  "info": {
+    "displayName": "Digital Marketing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

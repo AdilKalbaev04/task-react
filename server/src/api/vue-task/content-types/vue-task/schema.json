@@ -1,0 +1,64 @@
+{
+  "kind": "singleType",
+  "collectionName": "vue_tasks",
+  "info": {
+    "singularName": "vue-task",
+    "pluralName": "vue-tasks",
+    "displayName": "Vue-Task",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "key_features": {
+      "displayName": "Key Features",
+      "type": "component",
+      "repeatable": false,
+      "component": "key-features.key-features"
+    },
+    "main": {
+      "displayName": "Main",
+      "type": "component",
+      "repeatable": false,
+      "component": "main.main"
+    },
+    "what_we_do": {
+      "displayName": "What We Do",
+      "type": "component",
+      "repeatable": false,
+      "component": "whatwedo.what-we-do"
+    },
+    "design_perfection": {
+      "displayName": "Design Perfection",
+      "type": "component",
+      "repeatable": false,
+      "component": "design-perfection.design-perfection"
+    },
+    "achievement": {
+      "displayName": "Achievement",
+      "type": "component",
+      "repeatable": true,
+      "component": "achievement.achievement"
+    },
+    "about_us": {
+      "displayName": "About Us",
+      "type": "component",
+      "repeatable": false,
+      "component": "about-us.about-us"
+    },
+    "digital_marketing": {
+      "displayName": "Digital Marketing",
+      "type": "component",
+      "repeatable": false,
+      "component": "digital-marketing.digital-marketing"
+    },
+    "our_portfolio": {
+      "displayName": "Our Portfolio",
+      "type": "component",
+      "repeatable": false,
+      "component": "our-portfolio.our-portfolio"
+    }
+  }
+}

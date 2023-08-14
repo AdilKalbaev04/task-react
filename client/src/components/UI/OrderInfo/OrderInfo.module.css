@@ -1,0 +1,55 @@
+.orderInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 30px;
+  gap: 30px;
+}
+.img_wrap {
+  display: flex;
+  align-items: center;
+  gap: 41px;
+}
+.img {
+  width: 128px;
+}
+.closed {
+  position: absolute;
+  top: 10px;
+  right: 6px;
+}
+.span {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.cont_order {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.btn_2 {
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  height: 24px;
+  width: 122px;
+  background: white;
+}
+
+.del_orange {
+  cursor: pointer;
+  color: #bd7048;
+}
+
+.change {
+  cursor: pointer;
+}

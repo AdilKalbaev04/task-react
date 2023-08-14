@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_our_portfolio_our_portfolios",
+  "info": {
+    "displayName": "Our Portfolio"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,137 @@
+.catalogTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.catalogText {
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+  max-width: 1000px;
+  margin: 30px auto 0;
+  padding: 0 30px;
+}
+
+.catalogItemWrap {
+  margin-top: 80px;
+}
+
+.catalogItemTitleWrap {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto 30px auto;
+  padding: 0 30px;
+}
+
+.catalogItemTitle {
+  font-size: 1.875rem;
+  font-weight: 500;
+  margin-right: 25px;
+  white-space: nowrap;
+}
+
+.catalogLineWrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.catalogLine {
+  width: 100%;
+  height: 2px;
+  background: #cbcbcb;
+  border: none;
+  border-radius: 2px;
+}
+
+.sliderItemTitleWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 0 20px;
+  max-width: 360px;
+}
+
+/* Media */
+
+@media (max-width: 767px) {
+  .catalogItemWrap {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 660px) {
+  .catalogText {
+    font-size: 1.125rem;
+  }
+
+  .catalogItemTitleWrap {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .catalogTitle {
+    font-size: 2.1875rem;
+  }
+
+  .catalogItemTitle {
+    font-size: 1.75rem;
+  }
+
+  .catalogLineWrap {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .catalogTitle {
+    display: none;
+  }
+
+  .catalogText {
+    display: none;
+  }
+
+  .catalogItemTitle {
+    font-size: 1.5625rem;
+    margin: 0;
+  }
+
+  .catalogItemTitleWrap {
+    padding-left: 15px;
+  }
+
+  .catalogItemWrap {
+    margin-top: 40px;
+  }
+}
+
+
+.slid_cont_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+}
+
+.btn_slid {
+  height: 57px;
+  width: 182px;
+  border-radius: 100px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #bd7048;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: none;
+  background: #fafafa;
+}
+

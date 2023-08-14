@@ -1,0 +1,31 @@
+.block_7 {
+  max-width: 100%;
+  min-height: 489px;
+  background-image: url("./public/back7.png");
+  display: flex;
+  align-items: center;
+}
+
+.block_7_text {
+  max-width: 563px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-left: 20px;
+  margin-left: 94px;
+  justify-items: center;
+}
+.block_7_h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: 0em;
+  color: white;
+}
+.block_7_p {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+}

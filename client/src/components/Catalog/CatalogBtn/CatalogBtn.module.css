@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&display=swap");
+
+.catalogBtn {
+  color: #bd7048;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 34px;
+  max-width: 180px;
+  border: none;
+  border-radius: 100px;
+  background: #fafafa;
+  cursor: pointer;
+  font-family: Montserrat Alternates;
+}
+
+.catalogBtnIcon {
+  margin-bottom: 4px;
+  margin-right: 8px;
+}
+
+/* Media */
+
+@media (max-width: 1200px) {
+  .catalogBtn {
+    padding: 8px 24px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .catalogBtn {
+    padding: 7px 22px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 980px) {
+  .catalogBtn {
+    padding: 6px 18px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 880px) {
+  .catalogBtn {
+    padding: 4px 16px;
+  }
+}
+
+@media (max-width: 860px) {
+  .catalogBtn {
+    padding: 4px 14px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 840px) {
+  .catalogBtn {
+    padding: 4px 12px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .catalogBtn {
+    padding: 8px 26px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .catalogBtn {
+    padding: 6px 22px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 640px) {
+  .catalogBtn {
+    padding: 6px 16px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 600px) {
+  .catalogBtn {
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 550px) {
+  .catalogBtn {
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 499px) {
+  .catalogBtn {
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .catalogBtn {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 340px) {
+  .catalogBtn {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+}

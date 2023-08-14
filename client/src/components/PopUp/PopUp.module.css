@@ -1,0 +1,547 @@
+.popUp {
+  max-width: 1240px;
+  background: white;
+  margin: 0 auto;
+  padding: 30px 50px;
+  border-radius: 20px;
+}
+
+.btnCloseContainer {
+  display: flex;
+  justify-content: right;
+}
+
+.btnClose {
+  color: #282828b2;
+  font-size: 1.25rem;
+  background: none;
+  border: none;
+  max-width: 100px;
+  cursor: pointer;
+}
+
+.popUpTitle {
+  color: #262626;
+  font-size: 1.875rem;
+}
+
+.popUpMain {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+
+.popUpSelect {
+  max-width: 500px;
+}
+.layout,
+.designProject {
+  border: 1px solid #bd7048;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.layoutCheck,
+.designProjectCheck {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkLabel {
+  color: #bd7048;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  max-width: max-content;
+}
+
+.addServTitleCheck {
+  color: black;
+  font-size: 1.875rem;
+}
+
+.checkLayoutPrice,
+.checkDesignProjectPrice {
+  color: black;
+  font-size: 1.125rem;
+  white-space: nowrap;
+  padding-left: 20px;
+}
+
+.layoutList,
+.designProjectList {
+  color: #26262680;
+  font-size: 0.9375rem;
+  margin: 10px 0 0 70px;
+}
+.popUpAddServ {
+  margin-top: 40px;
+}
+
+.addServTitle {
+  color: #2b2b2b;
+  font-size: 1.875rem;
+}
+
+.addServForm {
+  margin-top: 40px;
+}
+
+.popUpSelect {
+  margin-right: 20px;
+}
+
+.popUpTotalWrap {
+  max-width: 500px;
+  margin-left: 20px;
+}
+
+.popUpTotal {
+  background: #fff6f1;
+  border-radius: 15px;
+  max-width: 500px;
+  padding: 40px 40px 20px;
+}
+
+.totalTitle {
+  color: #262626;
+  font-size: 1.25rem;
+}
+
+.totalPrices {
+  margin-top: 30px;
+}
+
+.pricesMeasuring,
+.pricesLayout,
+.pricesSelectRooms,
+.pricesAddServ,
+.pricesTotal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.totalTitle {
+  color: #262626;
+  font-size: 1.25rem;
+}
+
+.layoutTitle,
+.selectRoomsTitle,
+.addServTitle {
+  color: #bd7048;
+  font-size: 1.25rem;
+}
+
+.measuringPrice,
+.layoutPrice,
+.selectRoomsPrice,
+.addServPrice {
+  color: #00000080;
+  font-size: 1.25rem;
+  white-space: nowrap;
+  padding-left: 20px;
+}
+
+.totalPrice {
+  color: #262626;
+  font-size: 1.25rem;
+  white-space: nowrap;
+  padding-left: 20px;
+}
+
+.totalForm {
+  margin-top: 50px;
+}
+
+.inputName,
+.inputTel {
+  width: 100%;
+  border: 1px solid #bd7048;
+  border-radius: 100px;
+  padding: 18px;
+}
+
+.inputTel {
+  margin-top: 20px;
+}
+
+.totalBtns {
+  margin-top: 50px;
+}
+
+.requestBtn,
+.payingBtn,
+.kaspiBtn {
+  padding: 22px;
+  border: none;
+  border-radius: 100px;
+  width: 100%;
+  max-height: 60px;
+  margin-bottom: 20px;
+}
+
+.requestBtn {
+  color: white;
+  background: #bd7048;
+}
+
+.payingBtn {
+  color: white;
+  background: #bd7048;
+}
+
+.kaspiBtn {
+  color: white;
+  background: #f14635;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconKaspi {
+  padding-right: 20px;
+}
+
+.totalText {
+  color: #26262680;
+  font-size: 0.9375rem;
+  margin-top: 10px;
+}
+
+.offer {
+  color: #bd7048;
+}
+
+.popUpText {
+  color: #26262680;
+  font-size: 0.9375rem;
+  margin-top: 15px;
+}
+
+.stiliContainer {
+  margin-top: 30px;
+}
+
+.stiliTitle {
+  color: #2b2b2b;
+  font-size: 1.5625rem;
+}
+
+.stiliWrap {
+  margin-top: 20px;
+}
+
+.stiliItemWrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.stiliItem {
+  color: #37373780;
+  font-size: 0.9375rem;
+}
+
+.delBtn {
+  margin-right: 30px;
+  background: none;
+  border: none;
+}
+
+.customCheck {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  border: 2px solid black;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.customCheck::before {
+  content: "";
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: url(./check.svg) no-repeat center;
+}
+
+.check:checked ~ .customCheck::before {
+  display: block;
+}
+
+.check {
+  display: none;
+}
+
+/* Media */
+
+@media (max-width: 1140px) {
+  .checkLabel,
+  .measuringPrice,
+  .layoutTitle,
+  .layoutPrice,
+  .selectRoomsTitle,
+  .selectRoomsPrice,
+  .addServTitle,
+  .addServPrice,
+  .totalTitle,
+  .totalPrice {
+    font-size: 1.125rem;
+  }
+
+  .checkLayoutPrice,
+  .checkDesignProjectPrice {
+    font-size: 1.0625rem;
+  }
+
+  .layout,
+  .designProject {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .checkLabel,
+  .measuringPrice,
+  .layoutTitle,
+  .layoutPrice,
+  .selectRoomsTitle,
+  .selectRoomsPrice,
+  .addServTitle,
+  .addServPrice,
+  .totalTitle,
+  .totalPrice {
+    font-size: 1.0625rem;
+  }
+
+  .checkLayoutPrice,
+  .checkDesignProjectPrice {
+    font-size: 1rem;
+  }
+
+  .popUpTotal {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 980px) {
+  .checkLabel,
+  .measuringPrice,
+  .layoutTitle,
+  .layoutPrice,
+  .selectRoomsTitle,
+  .selectRoomsPrice,
+  .addServTitle,
+  .addServPrice,
+  .totalTitle,
+  .totalPrice {
+    font-size: 1rem;
+  }
+
+  .checkLayoutPrice,
+  .checkDesignProjectPrice {
+    font-size: 0.9375rem;
+  }
+
+  .layout,
+  .designProject {
+    padding: 15px;
+  }
+
+  .customCheck {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 920px) {
+  .checkLabel,
+  .measuringPrice,
+  .layoutTitle,
+  .layoutPrice,
+  .selectRoomsTitle,
+  .selectRoomsPrice,
+  .addServTitle,
+  .addServPrice,
+  .totalTitle,
+  .totalPrice {
+    font-size: 0.875rem;
+  }
+
+  .checkLayoutPrice,
+  .checkDesignProjectPrice {
+    font-size: 0.8125rem;
+  }
+
+  .layout,
+  .designProject {
+    padding: 15px;
+  }
+
+  .customCheck {
+    margin-right: 10px;
+  }
+
+  .addServTitleCheck {
+    font-size: 1.5rem;
+  }
+
+  .layoutList,
+  .designProjectList {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 840px) {
+  .popUpMain {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .checkLabel,
+  .measuringPrice,
+  .layoutTitle,
+  .layoutPrice,
+  .selectRoomsTitle,
+  .selectRoomsPrice,
+  .addServTitle,
+  .addServPrice,
+  .totalTitle,
+  .totalPrice {
+    font-size: 1.25rem;
+  }
+
+  .checkLayoutPrice,
+  .checkDesignProjectPrice {
+    font-size: 1.25rem;
+  }
+
+  .layout,
+  .designProject {
+    padding: 20px;
+  }
+
+  .popUpSelect {
+    margin-right: 0;
+  }
+
+  .popUpTotalWrap,
+  .popUpTotal {
+    margin-left: 0;
+  }
+
+  .popUpTotal {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 660px) {
+  .checkLabel,
+  .measuringPrice,
+  .layoutTitle,
+  .layoutPrice,
+  .selectRoomsTitle,
+  .selectRoomsPrice,
+  .addServTitle,
+  .addServPrice,
+  .totalTitle,
+  .totalPrice {
+    font-size: 1.125rem;
+  }
+
+  .checkLayoutPrice,
+  .checkDesignProjectPrice {
+    font-size: 1.125rem;
+  }
+
+  .popUpMain {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .checkLabel,
+  .measuringPrice,
+  .layoutTitle,
+  .layoutPrice,
+  .selectRoomsTitle,
+  .selectRoomsPrice,
+  .addServTitle,
+  .addServPrice,
+  .totalTitle,
+  .totalPrice {
+    font-size: 1.0625rem;
+    font-weight: 600;
+  }
+
+  .checkLayoutPrice,
+  .checkDesignProjectPrice {
+    font-size: 1.0625rem;
+  }
+
+  .popUp {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 440px) {
+  .checkLabel,
+  .measuringPrice,
+  .layoutTitle,
+  .layoutPrice,
+  .selectRoomsTitle,
+  .selectRoomsPrice,
+  .addServTitle,
+  .addServPrice,
+  .totalTitle,
+  .totalPrice {
+    font-size: 0.9375rem;
+  }
+
+  .checkLayoutPrice,
+  .checkDesignProjectPrice {
+    font-size: 1.25rem;
+  }
+
+  .layoutCheck,
+  .designProjectCheck {
+    display: block;
+    text-align: center;
+  }
+
+  #checkLabel {
+    margin: 0 auto;
+  }
+
+  .checkLayoutPrice,
+  .checkDesignProjectPrice {
+    padding: 0;
+    margin: 10px;
+  }
+
+  .customCheck {
+    width: 25px;
+    height: 25px;
+  }
+
+  .layoutList,
+  .designProjectList {
+    margin-left: 20px;
+  }
+
+  .popUp {
+    padding: 20px;
+  }
+
+  .delBtn {
+    margin-right: 0;
+  }
+}

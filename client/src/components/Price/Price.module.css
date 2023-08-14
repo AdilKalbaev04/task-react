@@ -1,0 +1,600 @@
+/* .h1 {
+  background: #bd7048;
+  max-width: 750px;
+  min-height: 60px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  background: #db916b;
+  max-width: 750px;
+  min-height: 60px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h4 {
+  color: #515050;
+}
+.text_2 {
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+}
+
+.ix2 {
+  color: rgb(92, 91, 91);
+}
+
+.ix1 {
+  color: rgb(92, 91, 91);
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.price1 {
+  color: #bd7048;
+}
+
+.button {
+  color: #ffffff;
+  height: 57px;
+  width: 182px;
+  border-radius: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #bd7048;
+  border: #bd7048;
+}
+.text_cont {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.text7 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.button1 {
+  display: flex;
+  gap: 20px;
+}
+
+.button2 {
+  color: #bd7048;
+  height: 57px;
+  width: 253px;
+  border-radius: 100px;
+  background: #ca876385;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+.text4 {
+  display: flex;
+  color: #595858;
+}
+
+.text6 {
+  color: rgb(92, 91, 91);
+}
+
+.price2 {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+
+.button3 {
+  display: flex;
+  gap: 20px;
+}
+
+.button5 {
+  color: #bd7048;
+  width: 180px;
+  height: 45px;
+  border-radius: 50px;
+  background: #ca87639e;
+  border: #bd7048;
+}
+.button4 {
+  color: #ffffff;
+  width: 152px;
+  height: 45px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #bd7048;
+  border: #bd7048;
+}
+
+.tix3 {
+  color: rgb(92, 91, 91);
+}
+
+.subject {
+  margin-bottom: 50px;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.img1 {
+  display: flex;
+  gap: 55px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 88px;
+}
+
+.imgtext {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 870px) {
+  .text_2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+  }
+} */
+
+.priceMain {
+  margin-top: 50px;
+}
+
+.priceLine {
+  background: #db916b;
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  z-index: -10;
+}
+
+.priceLineSec {
+  background: #bd7048;
+  width: 50%;
+  height: 100%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.priceMain {
+  display: flex;
+}
+
+.layout {
+  padding: 0 60px 0 80px;
+  width: 50%;
+}
+
+.layoutMain,
+.designProjectMain {
+  max-width: 500px;
+}
+
+.layoutTitle {
+  color: white;
+  font-size: 1.875rem;
+  padding-top: 20px;
+}
+
+.layoutText {
+  max-width: 500px;
+  font-size: 1.25rem;
+  margin-top: 50px;
+}
+
+.fitIf {
+  margin-top: 30px;
+}
+
+.fitIfTitle {
+  font-size: 1.25rem;
+}
+
+.layoutList {
+  margin: 30px 0 0 30px;
+  font-size: 1.25rem;
+}
+
+.completionDate {
+  margin-top: 40px;
+}
+
+.completionDateTitle {
+  font-size: 1.25rem;
+}
+
+.completionDateText {
+  font-size: 1.25rem;
+  margin-top: 30px;
+}
+
+.get {
+  margin-top: 40px;
+}
+
+.getTitle {
+  font-size: 1.25rem;
+}
+
+.layoutListSec {
+  margin: 30px 0 0 30px;
+  font-size: 1.25rem;
+}
+
+.layoutPriceWrap {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 440px;
+}
+
+.priceTitle {
+  font-size: 1.25rem;
+}
+
+.layoutPrice {
+  color: #bd7048;
+  font-size: 1.875rem;
+}
+
+.priceBtnsWrap {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 440px;
+}
+
+.cartBtn {
+  color: white;
+  font-size: 0.9375rem;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #bd7048;
+  border: none;
+  border-radius: 100px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.cartIcon {
+  margin: 0 10px 5px 0;
+}
+
+.exampleBtn {
+  color: #bd7048;
+  font-size: 0.9375rem;
+  padding: 21px 30px;
+  background: #ffdbc9;
+  border: none;
+  border-radius: 100px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.designProject {
+  padding: 0 80px 0 60px;
+  width: 50%;
+}
+
+.designProjectTitle {
+  color: white;
+  font-size: 1.875rem;
+  padding-top: 20px;
+}
+
+.designProjectTextWrap {
+  max-width: 500px;
+  font-size: 1.25rem;
+  margin-top: 50px;
+}
+
+.designProjectText {
+  max-width: 500px;
+  font-size: 1.25rem;
+  margin-top: 50px;
+}
+
+.designProjectTextSec {
+  margin-top: 20px;
+}
+
+.designProjectTextThird {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.catalogLink {
+  color: #bd7048;
+  text-decoration: underline;
+}
+
+.designProjectList {
+  margin: 30px 0 0 30px;
+  font-size: 1.25rem;
+}
+
+.completionDateList {
+  margin: 30px 0 0 30px;
+  font-size: 1.25rem;
+}
+
+.getList {
+  margin: 30px 0 0 30px;
+  font-size: 1.25rem;
+}
+
+.designProjectPriceWrap {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 440px;
+}
+
+.designProjectPrice {
+  color: #bd7048;
+  font-size: 1.875rem;
+}
+
+.layoutLineMob {
+  width: 100%;
+  height: 80px;
+  background: #bd7048;
+  position: absolute;
+  z-index: -10;
+  display: none;
+}
+
+.designProjectLineMob {
+  width: 100%;
+  height: 80px;
+  background: #bd7048;
+  margin-top: 50px;
+  position: absolute;
+  z-index: -10;
+  display: none;
+}
+
+/* Media */
+
+@media (max-width: 1140px) {
+  .cartBtn {
+    padding: 15px 20px;
+  }
+
+  .exampleBtn {
+    padding: 21px 20px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .cartBtn {
+    padding: 10px 14px;
+    font-size: 0.875rem;
+  }
+
+  .exampleBtn {
+    padding: 16px 14px;
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 980px) {
+  .layout {
+    padding: 0px 40px 0 60px;
+  }
+
+  .designProject {
+    padding: 0 60px 0 40px;
+  }
+
+  .fitIfTitle,
+  .getTitle,
+  .completionDateTitle,
+  .priceTitle,
+  .layoutText,
+  .designProjectTextWrap,
+  .designProjectText,
+  .layoutList,
+  .layoutListSec,
+  .designProjectList,
+  .completionDateList,
+  .getList {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .cartBtn {
+    padding: 10px 12px;
+    font-size: 0.8125rem;
+  }
+
+  .exampleBtn {
+    padding: 16px 12px;
+    font-size: 0.8125rem;
+  }
+}
+
+@media (max-width: 840px) {
+  .layout {
+    padding: 0px 30px 0 40px;
+  }
+
+  .designProject {
+    padding: 0 40px 0 30px;
+  }
+
+  .priceBtnsWrap {
+    display: block;
+  }
+
+  .cartBtn {
+    padding: 12px 15px;
+    font-size: 0.9375rem;
+    width: 100%;
+  }
+
+  .exampleBtn {
+    padding: 18px 15px;
+    font-size: 0.9375rem;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 760px) {
+  .layoutPrice {
+    font-size: 1.5rem;
+  }
+
+  .designProjectPrice {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .priceMain {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .priceLine {
+    display: none;
+  }
+
+  .layoutLineMob,
+  .designProjectLineMob {
+    display: block;
+  }
+
+  .layout {
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .layoutMain {
+    margin: 0 auto;
+  }
+
+  .layoutTitle {
+    text-align: center;
+  }
+
+  .designProject {
+    width: 100%;
+    padding: 0 30px;
+    margin-top: 50px;
+  }
+
+  .designProjectMain {
+    margin: 0 auto;
+  }
+
+  .designProjectTitle {
+    text-align: center;
+  }
+
+  .layoutPriceWrap,
+  .designProjectPriceWrap {
+    margin: 40px auto 0;
+  }
+
+  .priceBtnsWrap {
+    max-width: 400px;
+    margin: 50px auto 0;
+  }
+
+  .layoutPrice {
+    font-size: 1.875rem;
+  }
+
+  .designProjectPrice {
+    font-size: 1.875rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .layoutTitle,
+  .designProjectTitle {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  .layoutLineMob,
+  .designProjectLineMob {
+    height: 70px;
+  }
+}
+
+@media (max-width: 420px) {
+  .layoutTitle,
+  .designProjectTitle {
+    font-size: 1.25rem;
+  }
+
+  .fitIfTitle,
+  .getTitle,
+  .completionDateTitle,
+  .priceTitle,
+  .layoutText,
+  .designProjectTextWrap,
+  .designProjectText,
+  .layoutList,
+  .layoutListSec,
+  .designProjectList,
+  .completionDateList,
+  .getList {
+    font-size: 0.9375rem;
+  }
+
+  .layoutLineMob,
+  .designProjectLineMob {
+    height: 65px;
+  }
+}
+
+@media (max-width: 360px) {
+  .layoutTitle,
+  .designProjectTitle {
+    font-size: 1.0625rem;
+  }
+
+  .layoutPrice,
+  .designProjectPrice {
+    font-size: 1.625rem;
+  }
+
+  .layoutLineMob,
+  .designProjectLineMob {
+    height: 60px;
+  }
+}

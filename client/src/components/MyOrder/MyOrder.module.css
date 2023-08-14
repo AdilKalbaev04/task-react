@@ -1,0 +1,43 @@
+.order_cont {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  min-height: 119px;
+  width: 280px;
+  border-radius: 100px 0px 0px 100px;
+  background: #262626;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.order_text {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.order_price {
+  padding: 10px;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.order_svg {
+  height: 58px;
+  width: 61px;
+  border-radius: 100px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sometext {
+  display: flex;
+  flex-direction: column;
+}
